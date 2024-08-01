@@ -24,7 +24,7 @@ class NumberGame{
         int rand=(int)(Math.random()*100);
         System.out.println("\nRound- "+n);
         Scanner sc=new Scanner(System.in);
-        for(int i=0;i<6;i++)
+        for(int i=0;i<5;i++)
         {
             System.out.println("Enter your guess:");
             int num=sc.nextInt();
@@ -39,7 +39,7 @@ class NumberGame{
                 System.out.println("Congratulations!! You won");
                 return 1;
             }
-        }System.out.println("Loose!!");
+        }System.out.println("\nLoose!!");
         return 0;
     }
 }
